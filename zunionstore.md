@@ -38,6 +38,4 @@ redis> ZRANGE salary 0 -1 WITHSCORES
 ```
 
 ## 说明
-![参考](http://redisdoc.com/sorted_set/zunionstore.html)
-
-
+[参考资料](http://redisdoc.com/sorted_set/zunionstore.html)
