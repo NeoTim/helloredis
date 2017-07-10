@@ -1,0 +1,23 @@
+{
+  "name": "helloredis",
+  "version": "1.0.0",
+  "description": "redis demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NextZeus/helloredis.git"
+  },
+  "keywords": [
+    "redis",
+    "ioredis"
+  ],
+  "author": "xiaodong.li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NextZeus/helloredis/issues"
+  },
+  "homepage": "https://github.com/NextZeus/helloredis#readme"
+}
