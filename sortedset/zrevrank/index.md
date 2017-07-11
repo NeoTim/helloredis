@@ -34,3 +34,5 @@ nil
 
 ```
 
+## 说明
+[参考资料](http://redisdoc.com/sorted_set/zrevrank.html)
