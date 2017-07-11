@@ -18,7 +18,7 @@ redis> ZRANGE manager 0 -1 WITHSCORES
 5) "bob"
 6) "4000"
 
-redis> ZUNIONSTORE salary 2 programmer manager WEIGHTS 1 3   # 公司决定加薪。。。除了程序员。。。
+redis> ZUNIONSTORE salary 2 programmer manager WEIGHTS 1 3   # 公司决定加薪*3。。。除了程序员*1。。。
 (integer) 6
 
 redis> ZRANGE salary 0 -1 WITHSCORES
