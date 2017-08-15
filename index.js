@@ -5,13 +5,17 @@ var client = new ioredis({
       "host": "127.0.0.1"
 });
 
-var pipeline = client.pipeline();
+// var pipeline = client.pipeline();
 
-pipeline.get("myset");
-pipeline.hget('myhsetnx','hhh')
-pipeline.hget("myhset",'myhfield');
-pipeline.exec(function(err,data){
-    data.forEach(function(item){
-        console.log(item);
-    });
+// pipeline.get("myset");
+// pipeline.hget('myhsetnx','hhh')
+// pipeline.hget("myhset",'myhfield');
+// pipeline.exec(function(err,data){
+//     data.forEach(function(item){
+//         console.log(item);
+//     });
+// });
+
+client.zrevrank("myzset","5010499",function(err,ranking){
+    console.log('-=-=-',err,ranking);
 });
