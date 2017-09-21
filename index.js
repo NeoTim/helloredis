@@ -16,6 +16,6 @@ var client = new ioredis({
 //     });
 // });
 
-client.zrevrank("myzset","5010499",function(err,ranking){
-    console.log('-=-=-',err,ranking);
-});
+// client.zrevrank("myzset","5010499",function(err,ranking){
+//     console.log('-=-=-',err,ranking);
+// });
