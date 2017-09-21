@@ -1,6 +1,6 @@
 # helloredis
-redis demo
 
+该demo 基于 [ioredis](https://github.com/luin/ioredis)库。
 
 ## Sorted Set 有序集合
 ### [zunionstore](sortedset/zunionstore/index.md)
