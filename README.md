@@ -1,5 +1,7 @@
 # helloredis
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NextZeus/helloredis.svg)](https://greenkeeper.io/)
+
 该demo 基于 [ioredis](https://github.com/luin/ioredis)库。
 
 ## Sorted Set 有序集合
